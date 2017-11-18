@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const ensureToken = require('../middleware/ensuretoken');
 const Category = require('../schemas/categories');
 
-router.get('/category', ensureToken, (req, res) => {
+router.get('/exercise', ensureToken, (req, res) => {
     jwt.verify(req.token, 'bobesponja63', (err, data) => {
         if (err) {
             res.sendStatus(403);
