@@ -1,0 +1,21 @@
+{
+  "name": "ppf-unesp",
+  "version": "2.0.0",
+  "description": "API Rest in NodeJS for PPF-UNESP App",
+  "main": "index.js",
+  "author": "Bryann Barbosa",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.2",
+    "mongoose-unique-validator": "^1.0.6",
+    "nodemon": "^1.12.1"
+  }
+}
